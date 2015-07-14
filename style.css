@@ -1,0 +1,322 @@
+﻿/*  Css */
+body{
+    background-image: url(images/bg.jpg); 
+    background-repeat: repeat-x;
+    text-align:center;
+    margin:0 auto;
+    background-color: #AEC6F6; 
+    min-width: 750px;
+}
+header#page_header{
+    position: fixed;
+    z-index: 3;
+	width : 100%;
+    height: 10%;
+    min-height: 50px;
+    max-height: 60;
+    background: black ; 
+    box-shadow: 5px 5px 10px 15px #000, 0 0 4px rgba(0, 0, 0, .5) inset;
+    min-width: 750px;
+}
+#menu{
+    z-index: 5
+    text-align: center;
+    padding-top: 25px;
+    margin:0 auto;
+    width:450px;
+
+
+}
+#menu_link{
+        text-align: center;
+        margin-top: 5%;
+}
+#menu_div{
+
+    z-index: 5;
+    margin-left: 5%;   
+    font-size: 25px;
+    color: white;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+#menu_div:hover{
+    margin-left: 5%;   
+    font-size: 30px;
+    text-align: center;
+}
+#menu_div2{
+
+    z-index: 5;
+    margin-left: 5%;   
+    font-size: 25px;
+    color: black;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+#menu_div2:hover{
+    margin-left: 5%;   
+    font-size: 30px;
+    text-align: center;
+}
+#bot_menu{
+    z-index:4;
+    position: fixed;
+    top: 1;
+    height: 35px;
+    width: 100%;
+    background: black;
+    box-shadow: 5px 5px 10px 5px #000, 0 0 4px rgba(0, 0, 0, .5) inset;
+}
+#oglavlenie{
+    float: left;
+    color: white;
+    font-size: 15px;
+    margin-top: 25px;
+    box-shadow: 0px 10px 10px 5px #000, 0 0 4px rgba(0, 0, 0, .5) inset;
+    width: 15%;
+}
+#oglavlenie li ul{
+    display:none;
+    background: black ; 
+}
+#oglavlenie li:hover ul, #oglavlenie li.over ul{
+    display: block;
+    background: black ; 
+}
+#oglavlenie ul li{
+    list-style-type:none;
+    background: black ; 
+
+}
+#oglavlenie ul li a{
+    color:#fff;
+    background: black ; 
+}
+#oglavlenie ul li ul li{
+    background: black ; 
+    list-style-type:square;
+    list-style-position:inside;
+}
+    
+
+#zakladki{
+    float: right;
+    color: white;
+    font-size: 15px;
+    margin-top: 25px;  
+    width: 15%;
+    box-shadow: 0px 10px 10px 5px #000, 0 0 4px rgba(0, 0, 0, .5) inset;
+}
+#zakladki li ul{
+    display:none;
+    background: black ; 
+}
+#zakladki li:hover ul, #zakladki li.over ul{
+    display: block;
+    background: black ; 
+}
+#zakladki ul li{
+    list-style-type:none;
+    background: black ; 
+    line-height: 2;
+}
+#zakladki ul li a{
+    color:#fff;
+    background: black ; 
+}
+#zakladki ul li ul li{
+    background: black ; 
+    list-style-type:square;
+    list-style-position:inside;
+}
+#content1,#content2,#page_header{
+    position: relative;
+}
+#content{
+    padding-top: 20;
+}
+#content1{
+    z-index: 1;
+    padding: 10;
+    min-width: 450px;
+    padding-top: 20;
+    margin-left: 15%;
+    margin-right: 15%;
+    background: #AEC6F6 ;     
+}
+#content2{
+    z-index: 2;
+/*    
+    padding: 15;
+    margin: 70;
+*/
+    margin:10% 8% 15% 8% ;
+
+	padding:25;
+	text-align: left;
+    min-height:500px; 
+    min-width: 350px;
+    background: #CFDBF5 ;     
+    -webkit-border-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -moz-border-radius:5px;
+    -moz-border-radius-bottomright:5px;
+    -moz-border-radius-bottomleft:5px;
+    border-radius:5px;
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+}
+#content3{
+    z-index: 2;
+/*    
+    padding: 15;
+    margin: 70;
+*/
+    margin:10% 8% 15% 8% ;
+
+	padding:25;
+	text-align: center;
+    min-height:500px; 
+    min-width: 350px;
+    background: #CFDBF5 ;     
+    -webkit-border-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -moz-border-radius:5px;
+    -moz-border-radius-bottomright:5px;
+    -moz-border-radius-bottomleft:5px;
+    border-radius:5px;
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+}
+p{
+	text-indent: 1.5em;
+}
+#z{
+	text-align: center;
+	font-weight : 800;
+	font-size : 18;
+}
+#code{
+	padding-top: 15;
+	padding-bottom: 15;
+	padding-left: 30;
+	text-align: left;	
+	background-color : bbcfec;
+	margin : 5;
+	text-indent: 0em;
+	-webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    border-radius:15px;
+
+}
+i{
+	text-align: center;
+	font-weight: 800;
+}
+footer#page_footer{
+	width: 100%;
+	display: block;
+    text-align: center;
+}
+/* убирает отступы на странице */
+   * {
+    margin: 0;
+    padding: 0;
+   }
+/* оформление ссылок */
+a{
+    text-decoration: none; 
+	
+}
+a:hover{
+	text-decoration:underline;
+}
+
+a:link{
+	color:silver;
+}
+a:visited{
+	color:gray;
+}
+
+
+*{
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+
+
+#reg{
+    float: right;
+    color: white;
+    font-size: 15px;
+    margin-top: 5px;  
+}
+#registration{
+    color: white;
+}
+#registration_left{
+    color: white;
+	float: left;
+}
+#registration_right{
+    color: white;
+	float: right;
+}
+.gradient {
+    background: #ffefbd; /* Для старых браузров */
+    background: -moz-linear-gradient(top, #ffefbd, #ffb033); /* Firefox 3.6+ */
+    /* Chrome 1-9, Safari 4-5 */
+    background: -webkit-gradient(linear, left top, left bottom, 
+                color-stop(0%,#ffefbd), color-stop(100%,#ffb033));
+    /* Chrome 10+, Safari 5.1+ */
+    background: -webkit-linear-gradient(top, #ffefbd, #ffb033);
+    background: -o-linear-gradient(top, #ffefbd, #ffb033); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ffefbd, #ffb033); /* IE10 */
+    background: linear-gradient(top, #ffefbd, #ffb033); /* CSS3 */ 
+	color : black;
+    -webkit-border-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -moz-border-radius:5px;
+    -moz-border-radius-bottomright:5px;
+    -moz-border-radius-bottomleft:5px;
+    border-radius:5px;
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+}
+
+#philosoph{
+	padding-left : 50;
+}
+#ref_text{
+	text-align: center;
+	font-size: 20;
+	font-weight: 800;
+}
+#ref_text2{
+	text-align: center;
+	font-size: 20;
+	font-weight: 800;
+}
+#k_r{
+	text-align: center;
+	font-size: 14;
+}
+#k_r2{
+	text-align: right;
+	font-size: 14;
+}
+#k_r_tema{
+	text-align: center;
+	font-size: 16;
+	font-weight: 800;
+}
